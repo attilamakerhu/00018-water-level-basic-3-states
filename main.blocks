@@ -1,6 +1,6 @@
 <xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="c`a5-;xA};p~0}H=ZvV=">upper_level</variable><variable id=":!h?5dI}=s2?yNKZ%g{#">lower_level</variable><variable id="Q,.2WFSyE`q#d#A5}.p8">level</variable></variables><block type="device_forever" id="fS=]-lm|40d[5fKz84`)" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="Fz}p2~WO1Jofx,cEei=w"><mutation elseif="1" else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="5I`D-:_Xe@j.!2ea+[|i"><field name="NAME">TouchPin.P2</field></block></value><statement name="DO0"><block type="device_show_leds" id="^}k/N,v(N5pnWYf.e=!*"><field name="LEDS">`
         . . . . . 
-        . # # # . 
+        . . # . . 
         # # # # # 
         # # # # # 
         # # # # #
@@ -8,7 +8,7 @@
         . . . . . 
         . . . . . 
         . . . . . 
-        # # # # # 
+        . # # # . 
         # # # # #
         `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="/3`OHsWX:rc}T}#$CWh-"><field name="LEDS">`
         . . . . . 

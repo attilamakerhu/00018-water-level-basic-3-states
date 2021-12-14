@@ -2,7 +2,7 @@ basic.forever(function () {
     if (input.pinIsPressed(TouchPin.P2)) {
         basic.showLeds(`
             . . . . .
-            . # # # .
+            . . # . .
             # # # # #
             # # # # #
             # # # # #
@@ -12,7 +12,7 @@ basic.forever(function () {
             . . . . .
             . . . . .
             . . . . .
-            # # # # #
+            . # # # .
             # # # # #
             `)
     } else {
